@@ -1,3 +1,6 @@
 myenv/
 __pycache__/
 .ipynb_checkpoints/
+
+# ignore csv data
+data/archive/sales_data_sample.csv
