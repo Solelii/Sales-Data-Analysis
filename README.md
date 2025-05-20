@@ -60,4 +60,3 @@ This project analyzes sales data to uncover trends, top-performing products, and
 
 ---
 
-## 📈 Project Workflow  
