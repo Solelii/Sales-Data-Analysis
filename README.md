@@ -14,7 +14,8 @@ This project analyzes sales data to uncover trends, top-performing products, and
 - **Project Management:** Jupyter Notebook, GitHub  
 
 ![Python](https://img.shields.io/badge/Python-Intermediate-blue)  
-![Data Visualization](https://img.shields.io/badge/Visualization-Looker_Studio|Matplotlib-orange)  
+![Data Visualization](https://img.shields.io/badge/Visualization-Looker_Studio|Matplotlib-orange)
+![SQL](https://img.shields.io/badge/SQL-Intermediate-green)
 
 ## 🔍 General Workflow  
 
