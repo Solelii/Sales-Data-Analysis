@@ -1,81 +1,63 @@
-# 🧠 Data Intern Readiness Projects
-
-✅ **GOAL:** Demonstrate readiness for a data internship by showcasing foundational skills in Python, MySQL, and Looker Studio.
+# 📊 Sales Data Analysis & Interactive Dashboard  
 
 ---
 
-## 🔧 Project Outline: 3 Mini Projects (Progressively Advanced)
+## Overview  
+This project analyzes sales data to uncover trends, top-performing products, and revenue growth. It includes **Python-based data cleaning/analysis** and an **interactive Looker Studio dashboard**.
 
 ---
 
-### 📊 Project 1: Sales Data Analysis (Statistical + Visual)
+## Tools Used  
+- **Data Cleaning & Analysis:** Python (`pandas`, `numpy`)  
+- **Visualization:** `matplotlib` 
+- **Dashboarding:** Looker Studio, Google Sheets
+- **Project Management:** Jupyter Notebook, GitHub  
 
-**Objective:** Perform quantitative analysis and visualize business trends.
+![Python](https://img.shields.io/badge/Python-Expert-blue)  
+![Data Visualization](https://img.shields.io/badge/Visualization-Looker_Studio|Matplotlib-orange)  
+![Automation](https://img.shields.io/badge/Automation-Google_Sheets_API-green)  
 
-#### Tasks:
-- Load a CSV dataset (e.g., `sales_data.csv`) using `pandas`.
-- Clean the data (handle missing values, correct data types).
-- Perform statistical analysis:
-  - Calculate average sales per month
-  - Identify top 5 best-selling products
-  - Analyze sales growth over time
-- Visualize results using:
-  - Line chart (e.g., monthly sales trend)
-  - Bar chart (e.g., top 5 products by revenue)
+## 🔍 General Workflow  
 
-#### Skills Demonstrated:
-- Python libraries: `pandas`, `matplotlib`, `seaborn`
-- Data wrangling & basic statistics
-- Data visualization
+1. **Data Assessment**  
+   - Load the raw dataset and inspect overall structure  
+   - Identify missing values, duplicates, and obvious outliers  
+   - Summarize key fields (e.g. date ranges, product counts, revenue distribution)  
 
----
+2. **Data Cleaning**  
+   - Remove or impute missing and invalid records  
+   - Standardize data types (dates, categories, numerics)  
+   - Deduplicate and filter extreme outliers  
 
-### ⚙️ Project 2: Automation Script — Daily Report Generator
+3. **Feature Engineering**  
+   - Derive time‑based fields (year, month, weekday)  
+   - Calculate aggregate metrics (total revenue, average price)  
+   - Flag special events or promotions if available  
 
-**Objective:** Automate a manual reporting task using Python.
+4. **Exploratory Analysis**  
+   - Aggregate revenue and volume by time period  
+   - Compute growth rates (month‑over‑month, year‑over‑year)  
+   - Segment performance by product, category, or region  
 
-#### Tasks:
-- Connect to a MySQL database (`mysql-connector-python` or `SQLAlchemy`)
-- Run a SQL query (e.g., yesterday’s sales)
-- Process and summarize the data
-- Export the report to Excel or PDF
-- *(Optional)* Send the report via email using `smtplib`
+5. **Visualization Planning**  
+   - Choose static charts for high‑level trends (line, bar, heatmap)  
+   - Identify interactive views for deeper drill‑down (hover, filters)  
+   - Sketch dashboard layouts and key KPI scorecards  
 
-#### Skills Demonstrated:
-- SQL and Python integration
-- Python scripting for automation
-- Report generation (file I/O)
+6. **Data Export & Integration**  
+   - Prepare cleaned dataset for downstream use (CSV, Google Sheets, etc.)  
+   - Validate that BI tools can connect and refresh automatically  
 
----
+7. **Dashboard Development**  
+   - Configure charts, scorecards, and filters in Looker Studio (or equivalent)  
+   - Arrange components for clear storytelling and easy navigation  
+   - Test interactivity (date ranges, category filters, drill‑downs)  
 
-### 📈 Project 3: Looker Studio Integration
-
-**Objective:** Build a live dashboard using cleaned data.
-
-#### Tasks:
-- Use processed data from Project 1 or 2
-- Format the data and upload to Google Sheets via `gspread`
-- Connect Google Sheets to Looker Studio
-- Design a dashboard with:
-  - Time-based trendlines
-  - Filters for product/category
-  - Comparison metrics (e.g., this week vs. last week)
-
-#### Skills Demonstrated:
-- Data preparation for visualization
-- Google Sheets API
-- Looker Studio dashboarding
+8. **Documentation & Handoff**  
+   - Draft a concise README with overview, folder structure, and usage steps  
+   - Include screenshots or links to live dashboard  
+   - Provide setup instructions (dependencies, credentials, data sources)  
 
 ---
 
-## 🧠 Bonus Add-Ons (To Really Impress)
-
-- Use **Jupyter Notebook or Google Colab** to present your analysis with markdowns and visualizations.
-- Publish your work on **GitHub** with clear documentation.
-- Prepare a short **Google Slides** deck (5 slides):
-  - Problem → Data → Analysis → Automation → Results
-
----
-
-📌 **Note:** This set of projects is designed to simulate real-world tasks typically assigned to data interns and junior analysts. Completing them will give you a strong portfolio piece to include in your resume or internship application.
-
+## 📈 Project Workflow  
