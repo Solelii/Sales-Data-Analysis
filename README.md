@@ -13,9 +13,8 @@ This project analyzes sales data to uncover trends, top-performing products, and
 - **Dashboarding:** Looker Studio, Google Sheets
 - **Project Management:** Jupyter Notebook, GitHub  
 
-![Python](https://img.shields.io/badge/Python-Expert-blue)  
+![Python](https://img.shields.io/badge/Python-Intermediate-blue)  
 ![Data Visualization](https://img.shields.io/badge/Visualization-Looker_Studio|Matplotlib-orange)  
-![Automation](https://img.shields.io/badge/Automation-Google_Sheets_API-green)  
 
 ## 🔍 General Workflow  
 
